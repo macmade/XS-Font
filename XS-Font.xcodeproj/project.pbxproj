@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D95ACE17DE407100EBA437 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D95ACD17DE407100EBA437 /* Cocoa.framework */; };
+		05EAF50C18A9293B00551E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF50118A9293B00551E80 /* AppDelegate.m */; };
+		05EAF50E18A9293B00551E80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05EAF50418A9293B00551E80 /* InfoPlist.strings */; };
+		05EAF51018A9293B00551E80 /* FontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF50918A9293B00551E80 /* FontView.m */; };
+		05EAF51118A9293B00551E80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EAF50A18A9293B00551E80 /* Images.xcassets */; };
+		05EAF51218A9293B00551E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF50B18A9293B00551E80 /* main.m */; };
+		05EAF51318A9298200551E80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05EAF50218A9293B00551E80 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D95ACA17DE407100EBA437 /* XS-Font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XS-Font.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D95ACD17DE407100EBA437 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05D95AD017DE407100EBA437 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		05D95AD117DE407100EBA437 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05D95AD217DE407100EBA437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05EAF50018A9293B00551E80 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05EAF50118A9293B00551E80 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05EAF50318A9293B00551E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05EAF50518A9293B00551E80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05EAF50618A9293B00551E80 /* XS-Font-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XS-Font-Info.plist"; sourceTree = "<group>"; };
+		05EAF50718A9293B00551E80 /* XS-Font-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XS-Font-Prefix.pch"; sourceTree = "<group>"; };
+		05EAF50818A9293B00551E80 /* FontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontView.h; sourceTree = "<group>"; };
+		05EAF50918A9293B00551E80 /* FontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontView.m; sourceTree = "<group>"; };
+		05EAF50A18A9293B00551E80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05EAF50B18A9293B00551E80 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D95AC717DE407100EBA437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D95ACE17DE407100EBA437 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D95AC117DE407000EBA437 = {
+			isa = PBXGroup;
+			children = (
+				05EAF4FF18A9293B00551E80 /* XS-Font */,
+				05D95ACC17DE407100EBA437 /* Frameworks */,
+				05D95ACB17DE407100EBA437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D95ACB17DE407100EBA437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D95ACA17DE407100EBA437 /* XS-Font.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D95ACC17DE407100EBA437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D95ACD17DE407100EBA437 /* Cocoa.framework */,
+				05D95ACF17DE407100EBA437 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D95ACF17DE407100EBA437 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D95AD017DE407100EBA437 /* AppKit.framework */,
+				05D95AD117DE407100EBA437 /* CoreData.framework */,
+				05D95AD217DE407100EBA437 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		05EAF4FF18A9293B00551E80 /* XS-Font */ = {
+			isa = PBXGroup;
+			children = (
+				05EAF50018A9293B00551E80 /* AppDelegate.h */,
+				05EAF50118A9293B00551E80 /* AppDelegate.m */,
+				05EAF50218A9293B00551E80 /* MainMenu.xib */,
+				05EAF50418A9293B00551E80 /* InfoPlist.strings */,
+				05EAF50618A9293B00551E80 /* XS-Font-Info.plist */,
+				05EAF50718A9293B00551E80 /* XS-Font-Prefix.pch */,
+				05EAF50818A9293B00551E80 /* FontView.h */,
+				05EAF50918A9293B00551E80 /* FontView.m */,
+				05EAF50A18A9293B00551E80 /* Images.xcassets */,
+				05EAF50B18A9293B00551E80 /* main.m */,
+			);
+			path = "XS-Font";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D95AC917DE407100EBA437 /* XS-Font */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D95AFB17DE407100EBA437 /* Build configuration list for PBXNativeTarget "XS-Font" */;
+			buildPhases = (
+				05D95AC617DE407100EBA437 /* Sources */,
+				05D95AC717DE407100EBA437 /* Frameworks */,
+				05D95AC817DE407100EBA437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XS-Font";
+			productName = font;
+			productReference = 05D95ACA17DE407100EBA437 /* XS-Font.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D95AC217DE407000EBA437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "XS-Labs";
+			};
+			buildConfigurationList = 05D95AC517DE407000EBA437 /* Build configuration list for PBXProject "XS-Font" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D95AC117DE407000EBA437;
+			productRefGroup = 05D95ACB17DE407100EBA437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D95AC917DE407100EBA437 /* XS-Font */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D95AC817DE407100EBA437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EAF51318A9298200551E80 /* MainMenu.xib in Resources */,
+				05EAF51118A9293B00551E80 /* Images.xcassets in Resources */,
+				05EAF50E18A9293B00551E80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D95AC617DE407100EBA437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EAF50C18A9293B00551E80 /* AppDelegate.m in Sources */,
+				05EAF51218A9293B00551E80 /* main.m in Sources */,
+				05EAF51018A9293B00551E80 /* FontView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05EAF50218A9293B00551E80 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EAF50318A9293B00551E80 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		05EAF50418A9293B00551E80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EAF50518A9293B00551E80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D95AF917DE407100EBA437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05D95AFA17DE407100EBA437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05D95AFC17DE407100EBA437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XS-Font/XS-Font-Prefix.pch";
+				INFOPLIST_FILE = "XS-Font/XS-Font-Info.plist";
+				PRODUCT_NAME = "XS-Font";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D95AFD17DE407100EBA437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XS-Font/XS-Font-Prefix.pch";
+				INFOPLIST_FILE = "XS-Font/XS-Font-Info.plist";
+				PRODUCT_NAME = "XS-Font";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D95AC517DE407000EBA437 /* Build configuration list for PBXProject "XS-Font" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D95AF917DE407100EBA437 /* Debug */,
+				05D95AFA17DE407100EBA437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D95AFB17DE407100EBA437 /* Build configuration list for PBXNativeTarget "XS-Font" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D95AFC17DE407100EBA437 /* Debug */,
+				05D95AFD17DE407100EBA437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D95AC217DE407000EBA437 /* Project object */;
+}
