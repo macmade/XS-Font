@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: XS-Font.xcodeproj
+xcode_scheme: XS-Font
